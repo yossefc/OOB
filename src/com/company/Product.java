@@ -9,13 +9,14 @@ public class Product {
     protected String description;
     protected double price;
 
+
     /**
      *
      * @param Name
      * @param Description
      * @param Price
      */
-    public void Product(String Name, String Description, double Price){
+    public  Product(String Name, String Description, double Price){
        name = Name;
        description = Description;
        price = Price;
