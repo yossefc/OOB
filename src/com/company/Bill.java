@@ -8,7 +8,7 @@ public class Bill {
     private Map<Product, Integer> products = new HashMap<Product,Integer>();
 
     public Bill(Customer detailCustomer){
-        detailCustomer = customer;
+        detailCustomer = customer;//
     }
     public void addProduct (Product produit,Integer nombre) {
         this.products.put(produit, nombre);
